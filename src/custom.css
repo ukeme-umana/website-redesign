@@ -1,14 +1,15 @@
-.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
     color: #91cc42;
-    
+
 }
 
 .stats-wrapper {
     left: auto !important;
 }
 
-@media (max-width: 767px){
-.stats-wrapper {
-    text-align: center;
-}
+@media (max-width: 767px) {
+    .stats-wrapper {
+        text-align: center;
+    }
 }
