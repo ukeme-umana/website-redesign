@@ -6,6 +6,15 @@ Link  {
   text-decoration: none;
 } 
 
+.navbar-inverse {
+  background-color: white;
+  border-color: white;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
 .max-width-wrapper {
   max-width: 1920px;
 }
