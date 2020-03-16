@@ -12,7 +12,7 @@ Link  {
 }
 
 .navbar {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .navbar-brand {
@@ -34,6 +34,9 @@ Link  {
   .navbar-nav>li>a {
     padding-top: 25px;
   }
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #000000;
 }
 
 
@@ -80,6 +83,7 @@ Link  {
 .nav-list-text{
   color: black;
   font-weight: 600;
+  font-family: Montserrat,Helvetica Neue,Arial,sans-serif;
 }
 
 .nav-list-text:hover {
@@ -98,7 +102,7 @@ Link  {
   background-color: #90cc42;
   border: none;
   border-radius: 1.2em;
-  padding: .3em .9em .6em;
+  padding: .3em 1em .5em;
   color: #fff;
   font-weight: 700;
   

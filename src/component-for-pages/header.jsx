@@ -30,13 +30,16 @@ function Header() {
       </ul> */}
       <ul class="nav navbar-nav navbar-right">
         
-        <li><a href="#"> Home</a></li>
-        <li><a href="#"> Our Process</a></li>
-        <li><a href="#"> Our Farms</a></li>
-        <li><a href="#"> About Us</a></li>
-        <li><a href="#"> Our Team</a></li>
-        <li><a href="#"> Sign In</a></li>
-        <li><a href="#"> Sign Up</a></li>
+        <li><a href="https://thriveagric.com/" className="nav-list-text"> Home</a></li>
+        <li><a href="https://thriveagric.com/#howitworks" className="nav-list-text"> Our Process</a></li>
+        <li><a href="https://thriveagric.com/#howitworks" className="nav-list-text"> Our Farms</a></li>
+        <li><a href="https://thriveagric.com/about" className="nav-list-text /* special-nav-list-text */"> About Us</a></li>
+        <li><a href="https://thriveagric.com/team" className="nav-list-text"> Our Team</a></li>
+        <li><a href="https://thriveagric.com/sign/signin" className="nav-list-text"> Sign In</a></li>
+        <li><a href="https://thriveagric.com/sign/signup" className="nav-list-text nav-list-btn">
+                 <button className="sign-up-btn">Sign Up</button>
+            </a>
+        </li>
       </ul>
     </div>
   </div>
