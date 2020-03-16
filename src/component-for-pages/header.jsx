@@ -30,13 +30,13 @@ function Header() {
       </ul> */}
       <ul class="nav navbar-nav navbar-right">
         
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Home</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Our Process</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Our Farms</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> About Us</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Our Team</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="#"> Home</a></li>
+        <li><a href="#"> Our Process</a></li>
+        <li><a href="#"> Our Farms</a></li>
+        <li><a href="#"> About Us</a></li>
+        <li><a href="#"> Our Team</a></li>
+        <li><a href="#"> Sign In</a></li>
+        <li><a href="#"> Sign Up</a></li>
       </ul>
     </div>
   </div>
