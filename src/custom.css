@@ -7,3 +7,8 @@
     left: auto !important;
 }
 
+@media (max-width: 767px){
+.stats-wrapper {
+    text-align: center;
+}
+}
