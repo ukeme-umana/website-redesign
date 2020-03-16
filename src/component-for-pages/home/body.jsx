@@ -374,7 +374,7 @@ function Body() {
                         </li>
                     </ul> */}
                 </div>
-                <div className="green-dot hidden-sm hidden-xs">
+                <div className="green-dot hidden-sm hidden-xs green ">
                     <img src={dots} className="dots-img" alt="" />
                 </div>
             </div>
