@@ -314,8 +314,40 @@ function Body() {
 
             {/* Stats */}
             <div class="col-md-12">
-                <div className="stats-wrapper">
-                    <ul className="stats-ul">
+                <div className="stats-wrapper container">
+                    <div class="col-md-3">
+                        <div class="stat-single">
+                            <h3 className="green-num">127,000
+                                <span className="green-plus">+</span>
+                            </h3>
+                            <p className="grey-p">Acres Farmed</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="stat-single">
+                            <h3 className="green-num">2,600,000
+                                <span className="green-plus">+</span>
+                            </h3>
+                            <p className="grey-p">Birds Raised</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="stat-single">
+                            <h3 className="green-num">170,000
+                                <span className="green-plus">+</span>
+                            </h3>
+                            <p className="grey-p">Metric Tonnes of Grains</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="stat-single">
+                            <h3 className="green-num">18,500
+                                <span className="green-plus">+</span>
+                            </h3>
+                            <p className="grey-p">Farmers worked with</p>
+                        </div>
+                    </div>
+                    {/* <ul className="stats-ul">
                         <li className="stats-li">
                             <h3 className="green-num">127,000
                                 <span className="green-plus">+</span>
@@ -340,7 +372,7 @@ function Body() {
                             </h3>
                             <p className="grey-p">Farmers worked with</p>
                         </li>
-                    </ul>
+                    </ul> */}
                 </div>
                 <div className="green-dot">
                     <img src={dots} className="dots-img" alt="" />

@@ -5,6 +5,7 @@ import SocialMedia from './socialmedia';
 
 function Footer() {
     return (
+        
        <div className="col-md-12">
            <div className="get-thrive-app" >
                <div className="get-app-text">
