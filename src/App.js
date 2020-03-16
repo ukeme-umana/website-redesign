@@ -1,6 +1,7 @@
 import React from 'react';
 /* import logo from './logo.svg'; */
 import './App.css';
+import './custom.css';
 /* import Learning from './views/trial'; */
 // import Training from './views/trial';
 import Team from './views/practice';
