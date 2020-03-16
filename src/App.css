@@ -568,13 +568,13 @@ Link  {
   display: flex;
   justify-content: flex-start;
   flex-flow: row wrap;
-  margin-left: 3em;
+  padding-left: 0px;
 }
 
-.social-icon-list-li{
-  padding: 1em 0.5em 0.2em 0;
-  
+.social-icon-list-li {
+  padding: 0.4em;
 }
+
 
 .social{
   width: 2em;
@@ -590,10 +590,7 @@ Link  {
 }
 
 .footer-email-div{
-  display: flex;
-  margin-right: 8em;
-  margin-top: -3em;
-  justify-content: flex-end;
+ margin-top: 3em;
 }
 
 .footer-submit {
@@ -915,7 +912,7 @@ Link  {
 }
 
 .stats-li {
-  margin: 0.9em 3.8em 0 0.5em;
+  margin: 0.9em 3.8em 0 0.9em;
 }
 
 .green-dot {

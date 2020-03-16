@@ -20,6 +20,7 @@ function Footer() {
                         <img src={playstore} alt="Get thrive app from playstore" className="app-img" />
                     </a>
                </div>
+               
            </div>
            <div className="footer-info-grand-parent">
                 <div className="footer-info-parent">
@@ -44,6 +45,7 @@ function Footer() {
                              time.
                             </span>
                         </div>
+                        <SocialMedia/>
                     </div>
                     <div className="footer-info-child">
                         <span className="footer-h3-text">Contact Us</span>
@@ -80,15 +82,16 @@ function Footer() {
                             security.
                             </span>
                         </div>
+                        <div className="footer-email-div">
+                            <form>
+                                <input type="email" id="footer-email" placeholder="Your email address" required/>
+                                <button className="footer-submit">></button> 
+                            </form>  
+                        </div>
                     </div>
                 </div>
-                <SocialMedia/>
-                <div className="footer-email-div">
-                    <form>
-                        <input type="email" id="footer-email" placeholder="Your email address" required/>
-                        <button className="footer-submit">></button> 
-                    </form>  
-                </div>
+                
+                
            </div>
        </div>
        
