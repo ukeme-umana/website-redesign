@@ -883,6 +883,7 @@ Link  {
   left: 8em;
   bottom: 2.9em;
   z-index: 3;
+  margin: 0 auto;
 }
 
 .stats-ul {
@@ -909,8 +910,8 @@ Link  {
 
 .grey-p {
   color: #707070;
-  font-size: 0.8em;
-  text-align: center;
+  font-size: 1em;
+  
 }
 
 .stats-li {
