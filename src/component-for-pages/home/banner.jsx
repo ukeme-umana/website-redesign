@@ -2,7 +2,7 @@ import React from 'react';
 
 function Banner() {
     return (
-        <div className="col-md-12">
+        <div className="col-md-12 col-xs-12">
             <div class="body-banner-home">
                 <div class="body-banner-text2-home">
                         <h2 className="banner-h2-text-home">Fund a Farmer <br/> Make a profit!</h2>
