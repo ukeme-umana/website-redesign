@@ -18,7 +18,7 @@ function Body() {
         <div>
 
             {/* How Thrive Agric Works */}
-            <div class="col-md-12">
+            <div class="col-md-12 col-xs-12">
                 <div className="home-body-wrapper">
                     <div className="partners-wrapper">
                         <img src={partners} alt="" className="partners-img" />
@@ -137,7 +137,7 @@ function Body() {
             </div>
 
             {/* Our Farms */}
-            <div class="col-md-12">
+            <div class="col-md-12 col-xs-12">
                 <div className="our-farms-wrapper">
                     <div class="col-md-12 body-process">
                         <h2 class="body-process-text">
@@ -265,7 +265,7 @@ function Body() {
             </div>
 
             {/* How Far We Have Come */}
-            <div class="col-md-12">
+            <div class="col-md-12 col-xs-12">
                 <div className="how-far-wrapper">
                     <div class="body-process">
                         <h2 class="body-process-text">
@@ -316,7 +316,7 @@ function Body() {
             </div>
 
             {/* Stats */}
-            <div class="col-md-12">
+            <div class="col-md-12 col-xs-12">
                 <div className="stats-wrapper container">
                     <div class="col-md-3">
                         <div class="stat-single">
@@ -383,7 +383,7 @@ function Body() {
             </div>
 
             {/* Testimonial */}
-            <div class="col-md-12">
+            <div class="col-md-12 col-xs-12">
                 <div className="testimonial-wrapper" >
                     <div className="testimonial-pic" >
                         <span className="green-quotes">"</span>
