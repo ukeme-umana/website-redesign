@@ -838,6 +838,12 @@ Link  {
   margin: 0 auto;
 }
 
+.how-far-wrapper {
+  background: #FAFAFA 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin: 0 auto;
+}
+
 .how-img {
    width: 5em;
    height: 5.625em;

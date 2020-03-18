@@ -266,7 +266,7 @@ function Body() {
 
             {/* How Far We Have Come */}
             <div class="col-md-12">
-                <div className="our-farms-wrapper">
+                <div className="how-far-wrapper">
                     <div class="body-process">
                         <h2 class="body-process-text">
                             How
