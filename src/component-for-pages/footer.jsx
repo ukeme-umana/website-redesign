@@ -22,9 +22,9 @@ function Footer() {
                </div>
                
            </div>
-           <div className="footer-info-grand-parent">
+           <div className="col-md-12 footer-info-grand-parent">
                 <div className="footer-info-parent">
-                    <div className="footer-info-child">
+                    <div className="col-md-3 col-sm-6 col-xs-12 footer-info-child">
                         <span className="footer-h3-text">Company</span>
                         <div className="footer-p-text">
                             <span className="footer-p">
@@ -47,7 +47,7 @@ function Footer() {
                         </div>
                         <SocialMedia/>
                     </div>
-                    <div className="footer-info-child">
+                    <div className="col-md-3 col-sm-6 col-xs-12 footer-info-child">
                         <span className="footer-h3-text">Contact Us</span>
                         <div className="footer-p-text">
                             <span className="footer-p">31, 441 Crescent,<br/>
@@ -59,7 +59,7 @@ function Footer() {
                             </span>
                         </div>
                     </div>
-                    <div className="footer-info-child">
+                    <div className="col-md-3 col-sm-6 col-xs-12 footer-info-child">
                         <span className="footer-h3-text">More Links</span>
                         <div className="footer-p-text">
                             <span className="footer-p"><a className="more-links" href="dummy">Contact Us</a><br/>
@@ -71,7 +71,7 @@ function Footer() {
                             </span>
                         </div>
                     </div>
-                    <div className="footer-info-child">
+                    <div className="col-md-3 col-sm-6 col-xs-12 footer-info-child">
                         <span className="footer-h3-text">Join our community</span>
                         <div className="footer-p-text">
                             <span className="footer-p">

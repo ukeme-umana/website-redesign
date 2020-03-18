@@ -139,7 +139,7 @@ function Body() {
             {/* Our Farms */}
             <div class="col-md-12">
                 <div className="our-farms-wrapper">
-                    <div class="body-process">
+                    <div class="col-md-12 body-process">
                         <h2 class="body-process-text">
                             Our
                         <span className="process-line">
@@ -148,8 +148,9 @@ function Body() {
 
                         </h2>
                     </div>
-                    <div className="farm-section-wrapper">
-                        <div className="farms-ta">
+                    <div className="col-md-12 farm-section-wrapper">
+
+                        <div className="col-md-3 col-sm-6 col-xs-12 farms-ta">
                             <img src={farm1} alt="" className="farm-img" />
                             <span className="closed-sign">CLOSED</span>
                             <div className="farm-align-text">
@@ -176,7 +177,9 @@ function Body() {
                                 </div>
                             </div>
                         </div>
-                        <div className="farms-ta">
+
+
+                        <div className="col-md-3 col-sm-6 col-xs-12 farms-ta">
                             <img src={farm2} alt="" className="farm-img" />
                             <span className="closed-sign">CLOSED</span>
                             <div className="farm-align-text">
@@ -203,7 +206,7 @@ function Body() {
                                 </div>
                             </div>
                         </div>
-                        <div className="farms-ta">
+                        <div className="col-md-3 col-sm-6 col-xs-12 farms-ta">
                             <img src={farm3} alt="" className="farm-img" />
                             <span className="closed-sign">CLOSED</span>
                             <div className="farm-align-text">
@@ -230,7 +233,7 @@ function Body() {
                                 </div>
                             </div>
                         </div>
-                        <div className="farms-ta">
+                        <div className="col-md-3 col-sm-6 col-xs-12 farms-ta">
                             <img src={farm4} alt="" className="farm-img" />
                             <span className="closed-sign">CLOSED</span>
                             <div className="farm-align-text">

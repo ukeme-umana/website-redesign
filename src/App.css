@@ -553,14 +553,14 @@ Link  {
 }
 
 .footer-info-parent{
-  display: flex;
+  /* display: flex; */
   align-content: space-between;
   margin: 2em 5em 0.5em 5em;
 }
 
 .footer-info-child{
   padding: 0 1em;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .social-icon-list{
