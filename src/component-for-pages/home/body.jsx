@@ -27,7 +27,7 @@ function Body() {
                         <span className="how-thrive-text-span">How Thrive Agric Works</span>
                     </div>
                     <div className="how-it-works-wrapper">
-                        <div className="how-it-works-child" class="col-lg-3">
+                        <div className="how-it-works-child" class="col-lg-3 col-md-6">
                             <div className="how-it-works-up-part">
                                 <div className="number-div">
                                     <span className="number-span">1.</span>
@@ -52,7 +52,7 @@ function Body() {
                            </p>
                             </div>
                         </div>
-                        <div className="how-it-works-child" class="col-lg-3">
+                        <div className="how-it-works-child" class="col-lg-3 col-md-6">
                             <div className="how-it-works-up-part">
                                 <div className="number-div">
                                     <span className="number-span">2.</span>
@@ -76,7 +76,7 @@ function Body() {
                            </p>
                             </div>
                         </div>
-                        <div className="how-it-works-child" class="col-lg-3">
+                        <div className="how-it-works-child" class="col-lg-3 col-md-6">
                             <div className="how-it-works-up-part">
                                 <div className="number-div">
                                     <span className="number-span">3.</span>
@@ -101,7 +101,7 @@ function Body() {
                             </p>
                             </div>
                         </div>
-                        <div className="how-it-works-child" class="col-lg-3">
+                        <div className="how-it-works-child" class="col-lg-3 col-md-6">
                             <div className="how-it-works-up-part">
                                 <div className="number-div">
                                     <span className="number-span">4.</span>
@@ -151,8 +151,8 @@ function Body() {
                         </h2>
                     </div>
                     <div className="col-md-12 farm-section-wrapper">
-
-                        <div className="col-md-3 col-sm-6 col-xs-12 farms-ta">
+                        {/* col-md-3 col-sm-6 col-xs-12 */}
+                        <div className="col-lg-3 col-md-6 farms-ta">
                             <img src={farm1} alt="" className="farm-img" />
                             <span className="closed-sign">CLOSED</span>
                             <div className="farm-align-text">
@@ -181,7 +181,7 @@ function Body() {
                         </div>
 
 
-                        <div className="col-md-3 col-sm-6 col-xs-12 farms-ta">
+                        <div className="col-lg-3 col-md-6 farms-ta">
                             <img src={farm2} alt="" className="farm-img" />
                             <span className="closed-sign">CLOSED</span>
                             <div className="farm-align-text">
@@ -208,7 +208,7 @@ function Body() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-3 col-sm-6 col-xs-12 farms-ta">
+                        <div className="col-lg-3 col-md-6 farms-ta">
                             <img src={farm3} alt="" className="farm-img" />
                             <span className="closed-sign">CLOSED</span>
                             <div className="farm-align-text">
@@ -235,7 +235,7 @@ function Body() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-3 col-sm-6 col-xs-12 farms-ta">
+                        <div className="col-lg-3 col-md-6 farms-ta">
                             <img src={farm4} alt="" className="farm-img" />
                             <span className="closed-sign">CLOSED</span>
                             <div className="farm-align-text">
@@ -278,27 +278,31 @@ function Body() {
                         We Have Come
                     </h2>
                     </div>
-
+                    
                     <div className="farmer-story-parent" >
+                        <div class="col-md-6">
                         <div className="farmer-story-group" >
                             <div className="video-div" >
                                 <img src={farmer} alt="" className="video-img" />
                             </div>
+                        </div>
+                        </div>
+                        <div class="col-md-6">
                             <div className="farmer-story-text-parent" >
                                 <h3 className="farmer-story-text-title">
                                     Stories from the
                                 <span className="process-line" >Farms.</span>
                                 </h3>
                                 <span className="farmer-story-text" >We fondly call ourselves Farmily. At our core, we are
-                            <br />
+                                {/* <br /> */}
                              a technology-driven agricultural company
-                             <br />
+                            {/*  <br /> */}
                               passionate about ensuring global food security. We
-                              <br />
+                              {/* <br /> */}
                               get funds to support farmers from people like you,
-                              <br />
+                              {/* <br /> */}
                               with the promise of decent returns at the end of
-                              <br />
+                              {/* <br /> */}
                               each farming cycle.
                             </span>
                                 <div className="top-space" >
@@ -312,6 +316,9 @@ function Body() {
 
                             </div>
                         </div>
+                        
+                        
+                    
                     </div>
                 </div>
 
@@ -387,10 +394,13 @@ function Body() {
             {/* Testimonial */}
             <div class="col-md-12 col-xs-12">
                 <div className="testimonial-wrapper" >
+                    <div class="col-md-6">
                     <div className="testimonial-pic" >
                         <span className="green-quotes">"</span>
                         <img src={customer1} className="testimonial-img" alt="" />
                     </div>
+                    </div>
+                    <div class="col-md-6">
                     <div className="testimonial-text" >
                         <p className="testimonial-text-p">
                             “ I am excited at the wonderful farms that ThriveAgric offer in addition to the high returns on investments and the insurance coverage.
@@ -399,6 +409,7 @@ function Body() {
                         I receive my payouts as at when due. I am proud to be a farm subscriber, empowering communities and affecting lives positively.”
                         </p>
                         <span className="testimonial-text-span">DR. IKENNA OKPALA</span>
+                    </div>
                     </div>
                 </div>
             </div>

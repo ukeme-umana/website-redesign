@@ -9,6 +9,12 @@
     left: auto !important;
 }
 
+@media (min-width: 360px) and (max-width: 767px) {
+    .banner-h2-text-home {
+
+    }
+}
+
 @media (max-width: 767px) {
     .stats-wrapper {
         text-align: center;
@@ -19,8 +25,12 @@
        text-align: left;
         width: 100%;
         left: -8em;
-        font-size: 16px;
+        font-size: 14px;
      }
+
+     .banner-h2-text-home {
+        font-size: 22px;
+    }
 
      .body-banner-home {
          position: relative;
@@ -32,7 +42,7 @@
 
      .button-to-fund-home {
         position: absolute;
-        top: 19em;
+        top: 15em;
         margin-left:2em; 
      }
 
@@ -44,8 +54,18 @@
          position: absolute;
          left: 0em;
          top: 1em;
-         
          width: 100%;
+         object-fit: cover;
+     }
+
+     .how-it-works-wrapper{
+         padding: 3em 1em;
+         margin: 0 auto;
+        
+     }
+
+     .how-img-div {
+        margin-left: 2em;
      }
 
      .how-thrive-text{
@@ -64,19 +84,103 @@
 
     .get-started-div {
         position: relative;
-        margin-top: 6em;
+        margin-top: 2em;
+        margin-bottom: 2em;
     }
 
     .get-started-button {
         position: absolute;
-        left:7em;
+        left: 2em;
+        top: -2em;
+        
         
     }
+    .farms-ta {
+        width: 100%;
+        margin: 2em 0;
+        position: relative;
+    }
+
+    .farm-section-wrapper {
+        margin: 2em 0;
+    }
+
+    .farm-img {
+        height: 15em;
+    }
+
+    .closed-sign {
+        position: relative;
+        bottom: 14em;
+        left: 17.2em;
+        
+    }
+
+    .body-process-text {
+        font-size: 1.5em;
+    }
+
+    .video-img {
+        width: 100%;
+    }
+
+    .farmer-story-text-title {
+        margin: 1em auto;
+        font-size: 20px;
+    }
+
+    .farmer-story-parent {
+        position: relative;
+        padding: 0;
+    }
+
+    .farmer-story-text-parent {
+        position: relative;
+        top: -5.8em;
+    
+    }
+
+    .how-it-works-down-part {
+        margin-top: 1em;
+    }
+
+    
+
+    .testimonial-pic {
+        position: relative;
+        left: 0em;
+      } 
+
+    .testimonial-img {
+        width: 90%;
+        margin-bottom: 0;
+    }
+          
 }
 
-@media (min-width: 760px) and (max-width: 900px){
+@media (min-width: 760px) and (max-width: 1024px){
     .stats-wrapper {
         text-align: center;
+    }
+
+    .farms-ta {
+        width: 50%;
+        margin-top: 2em;
+    }
+
+    .get-started-div {
+        position: relative;
+        left: -12em;
+    }
+    .farm-img {
+        height: 15em;
+    }
+
+    .closed-sign {
+        position: relative;
+        left: 29.5em;
+        bottom: 14em;
+        
     }
     }
     
@@ -84,5 +188,29 @@
 .stat-single {
     margin: 0 auto;
     font-family: Montserrat;
+
+}
+
+@media (min-width: 320px) and (max-width: 600px){
+    .banner-h2-text-home {
+        font-size: 19px;
+    }
+
+    .button-to-fund-home {
+        position: relative;
+        top: 17em;
+    }
+    .closed-sign {
+        position: relative;
+        left: 16em;
+    }
+
+    .get-app-span1 {
+        font-size: 1.5em;
+    }
+
+    .farm-img {
+        height: 15em;
+    }
 
 }

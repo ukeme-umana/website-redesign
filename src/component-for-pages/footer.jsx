@@ -76,7 +76,7 @@ function Footer() {
                         <div className="footer-p-text">
                             <span className="footer-p">
                             We will love to reach you!<br/>
-                             Subscribe to get exciting news and stories of all<br/>
+                             Subscribe to get exciting news and stories<br/> of all  {/* <br/> */}
                              the work we are doing to empower<br/>
                              farmers and ensure global food<br/> 
                             security.
