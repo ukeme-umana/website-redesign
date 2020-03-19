@@ -168,7 +168,7 @@ Link  {
   margin: 0; 
   width: 100%;
   height: 600px;
-  
+  position: relative;
 }
 
 /* .banner-wrapper{
@@ -186,6 +186,10 @@ Link  {
   width: 30em;
 
 } */
+
+.btn-parent {
+  position: relative;
+}
 
 .body-banner2 {
   background-image: url(./tools/banner.png), url(./tools/banner2.png) ;
@@ -276,7 +280,7 @@ Link  {
   flex-direction: column;
   width: 50%;
   letter-spacing: 0;
-  position: relative;
+  position: absolute;
   top: 6em;
   padding: 1.8em 0.2em 0.9em 10em;
   height: 14em;
@@ -346,7 +350,7 @@ Link  {
   color: #0D9A49;
   opacity: 1;
   font-weight: bold;
- 
+ width: 100%;
 }
 
 .body-tech-event{
@@ -714,7 +718,7 @@ Link  {
 }
 
 .button-to-fund-home {
-  width: 13%;
+  position: absolute;
   background-color: #91CC42;
   text-align: center;
   opacity: 1;
@@ -723,7 +727,7 @@ Link  {
   margin-top: 5em;
   margin-left: 10em;
   border: none;
- 
+  top: 15em;
 }
 
 .button-to-fund-home:hover {
@@ -769,9 +773,9 @@ Link  {
 }
 
 .how-it-works-wrapper {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-content: center; */
   padding: 2em 6em;
 }
 
@@ -819,7 +823,7 @@ Link  {
 }
 
 .get-started-button {
-  width: 13%;
+  /* width: 13%; */
   background-color: #91CC42;
   text-align: center;
   opacity: 1;
@@ -828,7 +832,7 @@ Link  {
   position: relative;
   left: 35em;
   font-weight: 500;
-  bottom: 1em;
+  top: 2em;
   border: none;
 }
 

@@ -13,6 +13,65 @@
     .stats-wrapper {
         text-align: center;
     }
+    .body-banner-text2-home {
+       position: absolute;
+       top: 5em;
+       text-align: left;
+        width: 100%;
+        left: -8em;
+        font-size: 16px;
+     }
+
+     .body-banner-home {
+         position: relative;
+     }
+
+     .btn-parent {
+         position: relative;
+     }
+
+     .button-to-fund-home {
+        position: absolute;
+        top: 19em;
+        margin-left:2em; 
+     }
+
+     .partners-wrapper {
+        position: relative;
+     }
+
+     .partners-img {
+         position: absolute;
+         left: 0em;
+         top: 1em;
+         
+         width: 100%;
+     }
+
+     .how-thrive-text{
+         position: relative;
+         text-align: center;
+         margin-bottom: 3em;
+         
+     }
+
+    .how-thrive-text-span {
+        position: relative;
+        top: 3em;
+        font-size: 2em;
+        
+    }
+
+    .get-started-div {
+        position: relative;
+        margin-top: 6em;
+    }
+
+    .get-started-button {
+        position: absolute;
+        left:7em;
+        
+    }
 }
 
 @media (min-width: 760px) and (max-width: 900px){

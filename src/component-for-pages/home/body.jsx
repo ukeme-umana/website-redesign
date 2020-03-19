@@ -27,7 +27,7 @@ function Body() {
                         <span className="how-thrive-text-span">How Thrive Agric Works</span>
                     </div>
                     <div className="how-it-works-wrapper">
-                        <div className="how-it-works-child">
+                        <div className="how-it-works-child" class="col-lg-3">
                             <div className="how-it-works-up-part">
                                 <div className="number-div">
                                     <span className="number-span">1.</span>
@@ -52,7 +52,7 @@ function Body() {
                            </p>
                             </div>
                         </div>
-                        <div className="how-it-works-child">
+                        <div className="how-it-works-child" class="col-lg-3">
                             <div className="how-it-works-up-part">
                                 <div className="number-div">
                                     <span className="number-span">2.</span>
@@ -76,7 +76,7 @@ function Body() {
                            </p>
                             </div>
                         </div>
-                        <div className="how-it-works-child">
+                        <div className="how-it-works-child" class="col-lg-3">
                             <div className="how-it-works-up-part">
                                 <div className="number-div">
                                     <span className="number-span">3.</span>
@@ -101,7 +101,7 @@ function Body() {
                             </p>
                             </div>
                         </div>
-                        <div className="how-it-works-child">
+                        <div className="how-it-works-child" class="col-lg-3">
                             <div className="how-it-works-up-part">
                                 <div className="number-div">
                                     <span className="number-span">4.</span>
@@ -128,10 +128,12 @@ function Body() {
                             </div>
                         </div>
                     </div>
+                    <div class="">
                     <div className="get-started-div" >
                         <button className="get-started-button">
-                            <a className="button-to-fund-link-home" href="blank">Get Started</a>
+                            <a className="button-to-fund-link-home btn-lg" href="blank">Get Started</a>
                         </button>
+                    </div>
                     </div>
                 </div>
             </div>
