@@ -9,10 +9,49 @@
     left: auto !important;
 }
 
-@media (min-width: 360px) and (max-width: 767px) {
-    .banner-h2-text-home {
-
+@media (min-width: 768px) and (max-width: 1024px) {
+    .farmer-story-text-parent1 {
+        margin-left: 5em;
     }
+
+    .farmer-story-text-parent3 {
+        margin-left: 5em;
+    }
+
+    .video-img {
+        width: 400px;
+    }
+
+    .abt-curve-banner-pic {
+       width: 500px;
+    }
+
+    .abt-curve-img {
+        width: 100%;
+    }
+
+    .abt-us-banner {
+        width: 100%;
+    }
+
+    .video-div2 {
+        margin-left: 5em;
+        width: 80%;
+    }
+
+    .video-div {
+        
+        width: 80%;
+    }
+
+    .video-div3 {
+        
+        width: 80%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+
 }
 
 /* @media (min-width: 375px) and (max-width: 812px) {
@@ -25,7 +64,13 @@
 @media (max-width: 767px) {
     .stats-wrapper {
         text-align: center;
+        margin-top: 5em;
     }
+
+    .margin-top{
+        margin-top: 2em;
+    }
+
     .body-banner-text2-home {
        position: absolute;
        top: 5em;
@@ -55,15 +100,31 @@
 
      .partners-wrapper {
         position: relative;
+        background-color: white;
+        box-shadow: 0px 3px 30px #D3D3D32F;
+        width: 50%;
+        height: 4em;
      }
 
-     .partners-img {
+     .partners-logo {
+        width: 4em;
+        height: 4em;
+      
+      }
+
+     .partner-img-div {
+        margin: 0;
+        
+
+      }
+
+     /* .partners-img {
          position: absolute;
          left: 0em;
          top: 1em;
          width: 100%;
          object-fit: cover;
-     }
+     } */
 
      .how-it-works-wrapper{
          padding: 3em 1em;
@@ -84,7 +145,7 @@
 
     .how-thrive-text-span {
         position: relative;
-        top: 3em;
+        top: 1em;
         font-size: 2em;
         
     }
@@ -110,6 +171,7 @@
 
     .farm-section-wrapper {
         margin: 2em 0;
+        
     }
 
     .farm-img {
@@ -117,14 +179,20 @@
     }
 
     .closed-sign {
-        position: relative;
+       /*  position: relative;
         bottom: 14em;
         left: 17.2em;
-        
+         */
+    }
+
+    .body-process {
+        padding-top: 1em;
     }
 
     .body-process-text {
         font-size: 1.5em;
+        margin-bottom: 0.5em;
+        margin-top: 0.88em;
     }
 
     .video-img {
@@ -154,10 +222,16 @@
     .farmer-story-text-parent2 {
         margin-left: 0;
         margin-bottom: 2em;
+        width: 100%;
     }
 
     .farmer-story-text-parent1 {
         margin-bottom: 2em;
+        width: 100%;
+    }
+
+    .farmer-story-text-parent3 {
+        width: 100%;
     }
 
     .video-div {
@@ -179,6 +253,8 @@
         width: 90%;
         margin-bottom: 0;
     }
+
+   
           
 }
 
@@ -201,9 +277,9 @@
     }
 
     .closed-sign {
-        position: relative;
+        /* position: relative;
         left: 29.5em;
-        bottom: 14em;
+        bottom: 14em; */
         
     }
     }
@@ -325,15 +401,16 @@
         font-size: 0.8em;
     }
     .body-banner-text {
-        background-size: cover;
+        background: none;
         width: 100%;
         padding-bottom: 6em;
-        padding-left: 1em;
+        margin-left: 1em;
     }
 
     .h1-abt-banner-text {
         font-size: 2.1em;
         margin-bottom: 20px;
+        margin-top: 2.5em;
     }
 
     .abt-curve-banner-pic {
@@ -343,10 +420,10 @@
 
     .abt-curve-img {
         position: absolute;
-        left: -11em;
-        width: 170%;
-        
+        left: -24em;
+        width: 300px;
         object-fit: cover;
+       
     }
 
     .move-text {
@@ -354,4 +431,119 @@
         top: 19em;
         left: 0;
     }
+    
+    .tabs label {
+        width: 50px;
+        height: 50px;
+    }
+
+    .img-font-green{
+        width: 90%;
+        height: 90%;
+        
+    }
+
+    .tabs {
+        position: relative;
+      }
+      
+      .animation-circle:nth-child(4) {
+        position: absolute;
+        top: 6em;
+        left: -1em;
+       
+       
+      }
+      
+      .animation-circle:nth-child(2) {
+        position: absolute;
+        right: -1em;
+        top: 6em;
+       
+       
+      }
+      
+      
+      .animation-circle:nth-child(12) {
+        position: absolute;
+        left: 9.3em;
+        top: -2em;
+      }
+      
+      .animation-circle:nth-child(8) {
+        position: absolute;
+        left: -1em;
+        top: 22em;
+      }
+      
+      .animation-circle:nth-child(10) {
+        position: absolute;
+        bottom: -2em;
+        left: 9.3em;
+      }
+      
+      .animation-circle:nth-child(6) {
+        position: absolute;
+        right: -1em;
+        top: 22em;
+       
+      }
+
+      .body-process-text-green {
+          font-size: 21px;
+      }
+      
+    #content1 {
+        position: relative;
+        top: 8em;
+        left: 2.7em;
+        width: 250px;
+        text-align: center;
+        font-family: Montserrat,Helvetica Neue,Arial,sans-serif;
+      }
+      
+      #content2 {
+        position: relative;
+        top: 6em;
+        left: 2.7em;
+        width: 250px;
+        text-align: center;
+        font-family: Montserrat,Helvetica Neue,Arial,sans-serif;
+      }
+
+      #content3 {
+        position: relative;
+        top: 6em;
+        left: 2.7em;
+        width: 250px;
+        text-align: center;
+        font-family: Montserrat,Helvetica Neue,Arial,sans-serif;
+      }
+
+      #content4 {
+        position: relative;
+        top: 6em;
+        left: 2.7em;
+        width: 250px;
+        text-align: center;
+        font-family: Montserrat,Helvetica Neue,Arial,sans-serif;
+      }
+
+      #content5 {
+        position: relative;
+        top: 6em;
+        left: 2.7em;
+        width: 250px;
+        text-align: center;
+        font-family: Montserrat,Helvetica Neue,Arial,sans-serif;
+      }
+
+      #content6 {
+        position: relative;
+        top: 6em;
+        left: 2.7em;
+        width: 250px;
+        text-align: center;
+        font-family: Montserrat,Helvetica Neue,Arial,sans-serif;
+      }
 }

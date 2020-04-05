@@ -1,10 +1,16 @@
 import React from 'react';
-import process1 from '../tools/extension.png';
-import process2 from '../tools/technology.png';
-import process3 from '../tools/datadriven.png';
-import process4 from '../tools/farmersfirst.png';
-import process5 from '../tools/insurance.png';
-import process6 from '../tools/updates.png';
+import ag from '../tools/Group 43.svg';
+import aw from '../tools/Group 43w.svg';
+import bg from '../tools/Group 46.svg';
+import bw from '../tools/Group 46w.svg';
+import cg from '../tools/Group 44.svg';
+import cw from '../tools/Group 44w.svg';
+import dg from '../tools/Group 148.svg';
+import dw from '../tools/Group 48.svg';
+import eg from '../tools/Group 45.svg';
+import ew from '../tools/Group 45w.svg';
+import fg from '../tools/Group 149g.svg';
+import fw from '../tools/Group 147.svg';
 import thrive1 from '../tools/vicepresident.png';
 import thrive2 from '../tools/harvardbusiness.png';
 import thrive3 from '../tools/netpreneur.png';
@@ -13,12 +19,41 @@ import thrive5 from '../tools/pitch.png';
 import thrive6 from '../tools/wfp.png';
 import {Component} from 'react';
 import partners from '../tools/partners.png';
+import partners1 from '../tools/Mask Group 109.png';
+import partners2 from '../tools/Mask Group 110.png';
+import partners3 from '../tools/Mask Group 111.png';
+import partners4 from '../tools/Mask Group 112.png';
+import partners5 from '../tools/Mask Group 113.png';
+import partners6 from '../tools/Mask Group 114.png';
+
+
+
 
 function Thebody() {
     return (
         <div className="max-width-wrapper">
+            {/* <img src={partners} alt="" className="partners-img" /> */}
             <div className="partners-wrapper">
-                    <img src={partners} alt="" className="partners-img" />
+                <div className="partner-img-div">
+                    <img src={partners1} alt="" className="partners-logo" />
+                </div>
+                <div className="partner-img-div">
+                    <img src={partners2} alt="" className="partners-logo" />
+                </div>
+                <div className="partner-img-div">
+                    <img src={partners3} alt="" className="partners-logo" />
+                </div>
+                <div className="partner-img-div">
+                    <img src={partners4} alt="" className="partners-logo" />
+                </div>
+                <div className="partner-img-div">
+                    <img src={partners5} alt="" className="partners-logo" />
+                </div>
+                <div className="partner-img-div">
+                    <img src={partners6} alt="" className="partners-logo" />
+                </div>
+
+                    
             </div>
             <div className="body-process">
                 <h2 className="body-process-text-green">
@@ -28,17 +63,35 @@ function Thebody() {
             <div className="process-wrapper">
                 <div class="tabs">
                     <input id="tab1" type="radio" name="tabs"  />
-                    <label for="tab1" className="animation-circle">1</label>
+                    <label for="tab1" className="animation-circle">
+                        <img src={ag} alt="" className="img-font-green" />
+                        <img src={aw} alt="" className="img-font-white" />
+                    </label>
                     <input id="tab2" type="radio" name="tabs"/>
-                    <label for="tab2" className="animation-circle">2</label>
+                    <label for="tab2" className="animation-circle">
+                        <img src={bg} alt="" className="img-font-green" />
+                        <img src={bw} alt="" className="img-font-white" />
+                    </label>
                     <input id="tab3" type="radio" name="tabs" />
-                    <label for="tab3" className="animation-circle">3</label>
+                    <label for="tab3" className="animation-circle">
+                        <img src={cg} alt="" className="img-font-green" />
+                        <img src={cw} alt="" className="img-font-white" />
+                    </label>
                     <input id="tab4" type="radio" name="tabs" />
-                    <label for="tab4" className="animation-circle">4</label>
+                    <label for="tab4" className="animation-circle">
+                        <img src={dg} alt="" className="img-font-green" />
+                        <img src={dw} alt="" className="img-font-white" />
+                    </label>
                     <input id="tab5" type="radio" name="tabs" />
-                    <label for="tab5" className="animation-circle">5</label>
+                    <label for="tab5" className="animation-circle">
+                        <img src={eg} alt="" className="img-font-green" />
+                        <img src={ew} alt="" className="img-font-white" />
+                    </label>
                     <input id="tab6" type="radio" name="tabs" />
-                    <label for="tab6" className="animation-circle">6</label>
+                    <label for="tab6" className="animation-circle">
+                        <img src={fg} alt="" className="img-font-green" />
+                        <img src={fw} alt="" className="img-font-white" />
+                    </label>
                     <div class="content">
                           <div id="content1">
                                 <span className="span-bold-t">We Are Driven By Data</span>
@@ -159,7 +212,7 @@ function Thebody() {
                                 <img src={thrive1} alt="" className="work-img" />
                             </div>
                             <div class="work-text">
-                                <p class="work-text-p">We Pitched at the Palace of the Duke Of York</p>
+                                <p class="work-text-p">We shared our work with Vice President, Yemi Osinbajo</p>
                             </div>
                         </div>
                         <div class="someworks">
@@ -167,7 +220,7 @@ function Thebody() {
                                 <img src={thrive2} alt="" className="work-img" />
                             </div>
                             <div class="work-text">
-                                <p class="work-text-p">About that time we got into google Lunchpad</p>
+                                <p class="work-text-p">Our CEO, Uka Eje speaking at the Havard Business School</p>
                             </div>
                             </div>
                         <div class="someworks">
@@ -175,7 +228,7 @@ function Thebody() {
                                 <img src={thrive3} alt="" className="work-img" />
                             </div>
                             <div class="work-text">
-                                <p class="work-text-p">Our CEO, Uka Eje speaking at the Havard Business School</p>
+                                <p class="work-text-p">Uka Eje and Ayodeji Arikawe at the Netpreneur Prize Finale</p>
                             </div>
                             </div>
                         <div class="someworks">
@@ -183,7 +236,7 @@ function Thebody() {
                                 <img src={thrive4} alt="" className="work-img" />
                             </div>
                             <div class="work-text">
-                                <p class="work-text-p">We shared our work with Vice President, Yemi Osinbajo</p>
+                                <p class="work-text-p">Charles Isidi of Thrive Agric at Social Media Week</p>
                             </div>
                         </div>
                         <div class="someworks">
@@ -191,7 +244,7 @@ function Thebody() {
                                 <img src={thrive5} alt="" className="work-img" />
                             </div>
                             <div class="work-text">
-                                <p class="work-text-p">Our CEO, Uka Eje speaking at the World bank</p>
+                                <p class="work-text-p">We Pitched at the Palace of the Duke Of York</p>
                             </div>
                         </div>
                         <div class="someworks">
@@ -199,7 +252,7 @@ function Thebody() {
                                 <img src={thrive6} alt="" className="work-img" />
                             </div>
                             <div class="work-text">
-                                <p class="work-text-p">We got into Y-combinator, winter 2019</p>
+                                <p class="work-text-p">Ayo Arikawe at World Food Programme’s innovation 2020</p>
                             </div>
                         </div>
                     </div>

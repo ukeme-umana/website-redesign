@@ -6,12 +6,26 @@ import img2 from '../../tools/img2.svg';
 import img3 from '../../tools/img3.svg';
 import img4 from '../../tools/img4.svg';
 import dots from '../../tools/dots.svg';
-import customer1 from '../../tools/customer.png';
+
 import quotes from '../../tools/greenquote.svg';
 import farm1 from '../../tools/Rice-Farm-Aji-and-Kura-Kano-feb-nov.jpg';
 import farm2 from '../../tools/Rice-Farm-Warawa-&-Ajingi-Kano.jpg';
 import farm3 from '../../tools/thrivePoultrySold_out@.png';
 import farm4 from '../../tools/Soybeans.jpg';
+import sarahJames from '../../tools/sarah-james.jpg';
+import tolulopeOgunkoya from '../../tools/Tolulope Ogunkoya.jpg';
+import emmanuelIhim from '../../tools/Emmanuel Ihim.jfif';
+import ralphIortim from '../../tools/Ralph Iortim.jpg';
+import abdulfataiMuhammed from '../../tools/Abdulfatai Muhammed.jpg';
+import partners1 from '../../tools/Mask Group 109.png';
+import partners2 from '../../tools/Mask Group 110.png';
+import partners3 from '../../tools/Mask Group 111.png';
+import partners4 from '../../tools/Mask Group 112.png';
+import partners5 from '../../tools/Mask Group 113.png';
+import partners6 from '../../tools/Mask Group 114.png';
+import farmer1 from '../../tools/Thrive Agric Farm Stories- Episode 1.mp4';
+
+
 
 function Body() {
     return (
@@ -20,9 +34,28 @@ function Body() {
             {/* How Thrive Agric Works */}
             <div class="col-md-12 col-xs-12">
                 <div className="home-body-wrapper">
-                    <div className="partners-wrapper">
-                        <img src={partners} alt="" className="partners-img" />
-                    </div>
+                <div className="partners-wrapper">
+                <div className="partner-img-div">
+                    <img src={partners1} alt="" className="partners-logo" />
+                </div>
+                <div className="partner-img-div">
+                    <img src={partners2} alt="" className="partners-logo" />
+                </div>
+                <div className="partner-img-div">
+                    <img src={partners3} alt="" className="partners-logo" />
+                </div>
+                <div className="partner-img-div">
+                    <img src={partners4} alt="" className="partners-logo" />
+                </div>
+                <div className="partner-img-div">
+                    <img src={partners5} alt="" className="partners-logo" />
+                </div>
+                <div className="partner-img-div">
+                    <img src={partners6} alt="" className="partners-logo" />
+                </div>
+
+                    
+            </div>
                     <div className="how-thrive-text">
                         <span className="how-thrive-text-span">How Thrive Agric Works</span>
                     </div>
@@ -208,7 +241,7 @@ function Body() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 farms-ta">
+                        <div class="col-lg-3 col-md-6 farms-ta" >
                             <img src={farm3} alt="" className="farm-img" />
                             <span className="closed-sign">CLOSED</span>
                             <div className="farm-align-text">
@@ -279,47 +312,46 @@ function Body() {
                     </h2>
                     </div>
                     
-                    <div className="farmer-story-parent" >
-                        <div class="col-md-6">
-                        <div className="farmer-story-group" >
-                            <div className="video-div" >
-                                <img src={farmer} alt="" className="video-img" />
-                            </div>
-                        </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div className="farmer-story-text-parent" >
-                                <h3 className="farmer-story-text-title">
-                                    Stories from the
-                                <span className="process-line" >Farms.</span>
+                    <div class="col-md-6">
+                    <div className="video-div" >
+                        <video  alt="" controls className="video-img"  >
+                            <source src={farmer1} type="video/mp4"/>
+                        </video>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                            <div className="farmer-story-text-parent1" >
+                            <h3 className="farmer-story-text-title">
+                                Mallam 
+                                <span className="process-line" >Usman</span>
                                 </h3>
-                                <span className="farmer-story-text" >We fondly call ourselves Farmily. At our core, we are
-                                {/* <br /> */}
-                             a technology-driven agricultural company
-                            {/*  <br /> */}
-                              passionate about ensuring global food security. We
-                              {/* <br /> */}
-                              get funds to support farmers from people like you,
-                              {/* <br /> */}
-                              with the promise of decent returns at the end of
-                              {/* <br /> */}
-                              each farming cycle.
-                            </span>
+                                <span className="farmer-story-text" >Do you ever ask yourself if your funds are actually making an
+                                 impact in Farmers' lives?
+                                 Here is Usman to tell you just how you've been a tremendous help to him and his farm operations.
+                                <br/>
+                                
+                                Mallam Usman is quite a lively man and it is obvious from the way he spoke about our work 
+                                with him so far in our conversation with him. He explained how his yield has increased and how his 
+                                workload has reduced to a bare minimum because of the 
+                                inputs your funds have helped us provide him with.
+                                <br/>
+                                <br/>
+                                Don't take our word for it, watch him tell you how much of an
+                                 impact you're making in his life. Cheers to more profitable farmers
+                                  and their Families, thanks to you&#128154;	&#128154;
+
+                                </span>
                                 <div className="top-space" >
                                     <button className="button-to-fund">
                                         <a className="button-to-fund-link" href="blank">Fund a Farm</a>
                                     </button>
                                 </div>
-                                <div className="rd-text-div top-space">
+                                {/* <div className="rd-text-div top-space">
                                     <a href="blank" className="rd-text">Read more</a>
-                                </div>
+                                </div> */}
 
                             </div>
-                        </div>
-                        
-                        
-                    
-                    </div>
+                </div>
                 </div>
 
             </div>
@@ -359,32 +391,7 @@ function Body() {
                             <p className="grey-p">Farmers worked with</p>
                         </div>
                     </div>
-                    {/* <ul className="stats-ul">
-                        <li className="stats-li">
-                            <h3 className="green-num">127,000
-                                <span className="green-plus">+</span>
-                            </h3>
-                            <p className="grey-p">Acres Farmed</p>
-                        </li>
-                        <li className="stats-li">
-                            <h3 className="green-num">2,600,000
-                                <span className="green-plus">+</span>
-                            </h3>
-                            <p className="grey-p">Birds Raised</p>
-                        </li>
-                        <li className="stats-li">
-                            <h3 className="green-num">170,000
-                                <span className="green-plus">+</span>
-                            </h3>
-                            <p className="grey-p">Metric Tonnes of Grains</p>
-                        </li>
-                        <li className="stats-li">
-                            <h3 className="green-num">18,500
-                                <span className="green-plus">+</span>
-                            </h3>
-                            <p className="grey-p">Farmers worked with</p>
-                        </li>
-                    </ul> */}
+                    
                 </div>
                 <div className="green-dot hidden-sm hidden-xs green ">
                     <img src={dots} className="dots-img" alt="" />
@@ -413,72 +420,185 @@ function Body() {
                     </div>
                 </div>
             </div> */}
+
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12" data-wow-delay="0.2s">
-                        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-                            {/* <!-- Bottom Carousel Indicators --> */}
-                            <ol class="carousel-indicators">
-                                <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg" alt="" />
-                                </li>
-                                <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/rssems/128.jpg" alt="" />
-                                </li>
-                                <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg" alt="" />
-                                </li>
-                            </ol>
-
-                            {/* <!-- Carousel Slides / Quotes --> */}
-                            <div class="carousel-inner text-center">
-
-                                {/* <!-- Quote 1 --> */}
-                                <div class="item active">
-                                    <blockquote>
-                                        <div class="row">
-                                            <div class="col-sm-8 col-sm-offset-2">
-
-                                                <p>
-                                                I am excited at the wonderful farms that ThriveAgric offer in addition to the high
-                                                 returns on investments and the insurance coverage.
-                                                I receive my payouts as at when due. I am proud 
-                                                to be a farm subscriber, empowering communities and affecting lives positively
-                                                </p>
-                                                <small>DR. IKENNA OKPALA</small>
-                                            </div>
-                                        </div>
-                                    </blockquote>
-                                </div>
-                               {/*  <!-- Quote 2 --> */}
-                                <div class="item">
-                                    <blockquote>
-                                        <div class="row">
-                                            <div class="col-sm-8 col-sm-offset-2">
-
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                                                <small>Someone famous</small>
-                                            </div>
-                                        </div>
-                                    </blockquote>
-                                </div>
-                                {/* <!-- Quote 3 --> */}
-                                <div class="item">
-                                    <blockquote>
-                                        <div class="row">
-                                            <div class="col-sm-8 col-sm-offset-2">
-
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
-                                                <small>Someone famous</small>
-                                            </div>
-                                        </div>
-                                    </blockquote>
-                                </div>
-                            </div>
-
-                            {/* <!-- Carousel Buttons Next/Prev --> */}
-                            <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-                            <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
-                        </div>
-                    </div>
+              <div class="row">
+                {/* <div class='col-md-offset-2 col-md-8 text-center'>
+                <h2>Responsive Quote Carousel BS3</h2>
+                </div> */}
+              </div>
+              <div class='row'>
+                <div class='col-md-offset-2 col-md-8'>
+                  <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                   
+                    <ol class="carousel-indicators">
+                      <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#quote-carousel" data-slide-to="1"></li>
+                      <li data-target="#quote-carousel" data-slide-to="2"></li>
+                      <li data-target="#quote-carousel" data-slide-to="3"></li>
+                      <li data-target="#quote-carousel" data-slide-to="4"></li>
+                      {/* <li data-target="#quote-carousel" data-slide-to="5"></li>
+                      <li data-target="#quote-carousel" data-slide-to="6"></li> */}
+                    </ol>
+                    
+                    
+                    <div class="carousel-inner">
+                    
+                      
+                      <div class="item active">
+                        <blockquote>
+                          <div class="row">
+                            <div class="col-sm-3 text-center">
+                  <img class="img-circle" src={sarahJames}  alt="" />
+                  
                 </div>
+                            <div class="col-sm-9">
+                            <p class="monteserrat-font">
+                                                "I love Thrive Agric because it provides microloans to Nigerian farmers and 
+                                                a channel to sell produce to large buyers like Flour mills. It makes farmers 
+                                                more efficient by providing seamless access to financing, 
+                                                agricultural best practices and a premium market for their products"
+                                                </p>
+                                                <small class="bold-black monteserrat-font">SARAH JAMES</small>
+                
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src={emmanuelIhim} alt="" />
+                </div>
+                <div class="col-sm-9">
+                <p class="monteserrat-font">
+                    "I've been using the platform since 2017. 
+                    I love how the farms can be funded without hassle or fuss. 
+                    I also love how payments are paid promptly. It builds trust. 
+                    Thanks so much!"
+                </p>
+                <small class="bold-black monteserrat-font">EMMANUEL IHIM</small>
+                
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          
+                  <div class="item">
+                    <blockquote>
+                      <div class="row">
+                        <div class="col-sm-3 text-center">
+                          <img class="img-circle" src={tolulopeOgunkoya} alt=""  />
+                        </div>
+                        <div class="col-sm-9">
+                        <p class="monteserrat-font">
+                                        "I love Thrive Agric because it gives young people like
+                                         myself the opportunity to invest in my passion which is 
+                                         Agriculture. The smiles on the faces of the farmers are so 
+                                         rewarding (that doesn't mean I'll forfeit my investment gains lol).
+                                          But the reason I am so in love with Thrive Agric is that the emails
+                                                       I receive are just like mail from a friend. 
+                                                    Thrive Agric #notyourregularcompany"
+
+                                    </p>
+                                    <small class="bold-black monteserrat-font">TOLULOPE OGUNKOYA</small>
+                            </div>
+                          </div>
+                        </blockquote>
+                      </div>
+
+                     <div class="item">
+                        <blockquote>
+                          <div class="row">
+                            <div class="col-sm-3 text-center">
+                              <img class="img-circle" src={ralphIortim} alt="" />
+                            </div>
+                            <div class="col-sm-9">
+                            <p class="monteserrat-font">
+                                "Thrive Agric uses digital agriculture platform to connect farmers and investors 
+                                together to enhance the agricultural value chain. I will recommend it to others. 
+                                And I love Thrive Agric because it actually makes it possible to invest in agriculture without 
+                                having to be a farmer or owning farmland. It is a good platform to know to be innovative and 
+                                creative with ideas than can further improve and sustain Agricultural products and activities"
+                            </p>
+                            <small class="bold-black monteserrat-font">RAPHAEL LORTIM</small>
+
+                            </div>
+                          </div>
+                        </blockquote>
+                      </div>
+
+                      <div class="item">
+                        <blockquote>
+                          <div class="row">
+                            <div class="col-sm-3 text-center">
+                              <img class="img-circle" src={abdulfataiMuhammed} alt="" />
+                            </div>
+                            <div class="col-sm-9">
+                            <p class="monteserrat-font">
+                                "I love Thrive Agric because it empowers farmers and provides business opportunities 
+                                for investors by using technology 
+                                to drive new agricultural revolution to achieve food security. 
+                                I will recommend it"
+                            </p>
+                            <small class="bold-black monteserrat-font">ABDULFATAI MUHAMMED</small>
+
+                            </div>
+                          </div>
+                        </blockquote>
+                      </div>
+
+                      {/* <div class="item">
+                        <blockquote>
+                          <div class="row">
+                            <div class="col-sm-3 text-center">
+                              <img class="img-circle" src={emmanuelIhim} alt="" />
+                            </div>
+                            <div class="col-sm-9">
+                            <p class="monteserrat-font">
+                                "I've been using the platform since 2017. 
+                                I love how the farms can be funded without hassle or fuss. 
+                                I also love how payments are paid promptly. It builds trust. 
+                                Thanks so much!"
+                            </p>
+                            <small class="bold-black monteserrat-font">EMMANUEL IHIM</small>
+
+                          </div>
+                        </div>
+                      </blockquote>
+                    </div>
+
+                      <div class="item">
+                        <blockquote>
+                          <div class="row">
+                            <div class="col-sm-3 text-center">
+                              <img class="img-circle" src={emmanuelIhim} alt="" />
+                            </div>
+                            <div class="col-sm-9">
+                            <p class="monteserrat-font">
+                                "I've been using the platform since 2017. 
+                                I love how the farms can be funded without hassle or fuss. 
+                                I also love how payments are paid promptly. It builds trust. 
+                                Thanks so much!"
+                            </p>
+                            <small class="bold-black monteserrat-font">EMMANUEL IHIM</small>
+
+                            </div>
+                          </div>
+                        </blockquote>
+                      </div> */}
+                    </div>
+                  
+                  
+                  
+                  
+                    <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                    <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+                  </div>                          
+                </div>
+              </div>
 </div>
         </div >
     );

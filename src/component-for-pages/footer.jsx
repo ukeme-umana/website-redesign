@@ -85,7 +85,7 @@ function Footer() {
                         <div className="footer-email-div">
                             <form>
                                 <input type="email" id="footer-email" placeholder="Your email address" required/>
-                                <button className="footer-submit">></button> 
+                                <button className="footer-submit"><i class="fa fa-chevron-right white"></i></button> 
                             </form>  
                         </div>
                     </div>
