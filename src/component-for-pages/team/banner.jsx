@@ -2,7 +2,7 @@ import React from 'react';
 
 function Banner2() {
     return (
-        <div className="body-banner-grandparent">
+        <div className="body-banner-grandparent-team">
             <div class="body-banner2">
                 <div class="body-banner-text2-team">
                     <h2 className="banner-h2-text">Together, Building Our Africa’s Farmers</h2>

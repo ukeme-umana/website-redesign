@@ -1,0 +1,549 @@
+
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #91cc42;
+
+}
+
+.stats-wrapper {
+    left: auto !important;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .farmer-story-text-parent1 {
+        margin-left: 5em;
+    }
+
+    .farmer-story-text-parent3 {
+        margin-left: 5em;
+    }
+
+    .video-img {
+        width: 400px;
+    }
+
+    .abt-curve-banner-pic {
+       width: 500px;
+    }
+
+    .abt-curve-img {
+        width: 100%;
+    }
+
+    .abt-us-banner {
+        width: 100%;
+    }
+
+    .video-div2 {
+        margin-left: 5em;
+        width: 80%;
+    }
+
+    .video-div {
+        
+        width: 80%;
+    }
+
+    .video-div3 {
+        
+        width: 80%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+
+}
+
+/* @media (min-width: 375px) and (max-width: 812px) {
+    .closed-sign {
+        position: relative;
+        
+    }
+} */
+
+@media (max-width: 767px) {
+    .stats-wrapper {
+        text-align: center;
+        margin-top: 5em;
+    }
+
+    .margin-top{
+        margin-top: 2em;
+    }
+
+    .body-banner-text2-home {
+       position: absolute;
+       top: 5em;
+       text-align: left;
+        width: 100%;
+        left: -8em;
+        font-size: 14px;
+     }
+
+     .banner-h2-text-home {
+        font-size: 22px;
+    }
+
+     .body-banner-home {
+         position: relative;
+     }
+
+     .btn-parent {
+         position: relative;
+     }
+
+     .button-to-fund-home {
+        position: absolute;
+        top: 15em;
+        margin-left:2em; 
+     }
+
+     .partners-wrapper {
+        position: relative;
+        background-color: white;
+        box-shadow: 0px 3px 30px #D3D3D32F;
+        width: 50%;
+        height: 4em;
+     }
+
+     .partners-logo {
+        width: 4em;
+        height: 4em;
+      
+      }
+
+     .partner-img-div {
+        margin: 0;
+        
+
+      }
+
+     /* .partners-img {
+         position: absolute;
+         left: 0em;
+         top: 1em;
+         width: 100%;
+         object-fit: cover;
+     } */
+
+     .how-it-works-wrapper{
+         padding: 3em 1em;
+         margin: 0 auto;
+        
+     }
+
+     .how-img-div {
+        margin-left: 2em;
+     }
+
+     .how-thrive-text{
+         position: relative;
+         text-align: center;
+         margin-bottom: 3em;
+         
+     }
+
+    .how-thrive-text-span {
+        position: relative;
+        top: 1em;
+        font-size: 2em;
+        
+    }
+
+    .get-started-div {
+        position: relative;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .get-started-button {
+        position: absolute;
+        left: 2em;
+        top: -2em;
+        
+        
+    }
+    .farms-ta {
+        width: 100%;
+        margin: 2em 0;
+        position: relative;
+    }
+
+    .farm-section-wrapper {
+        margin: 2em 0;
+        
+    }
+
+    .farm-img {
+        height: 15em;
+    }
+
+    .closed-sign {
+       /*  position: relative;
+        bottom: 14em;
+        left: 17.2em;
+         */
+    }
+
+    .body-process {
+        padding-top: 1em;
+    }
+
+    .body-process-text {
+        font-size: 1.5em;
+        margin-bottom: 0.5em;
+        margin-top: 0.88em;
+    }
+
+    .video-img {
+        width: 100%;
+    }
+
+    .farmer-story-text-title {
+        margin: 1em auto;
+        font-size: 20px;
+    }
+
+    .farmer-story-parent {
+        position: relative;
+        padding: 0;
+    }
+
+    .farmer-story-text-parent {
+        position: relative;
+        top: -5.8em;
+    
+    }
+
+    .how-it-works-down-part {
+        margin-top: 1em;
+    }
+
+    .farmer-story-text-parent2 {
+        margin-left: 0;
+        margin-bottom: 2em;
+        width: 100%;
+    }
+
+    .farmer-story-text-parent1 {
+        margin-bottom: 2em;
+        width: 100%;
+    }
+
+    .farmer-story-text-parent3 {
+        width: 100%;
+    }
+
+    .video-div {
+        margin-left: 0
+    }
+
+    .video-div3 {
+        margin-left: 0
+    }
+
+
+
+    .testimonial-pic {
+        position: relative;
+        left: 0em;
+      } 
+
+    .testimonial-img {
+        width: 90%;
+        margin-bottom: 0;
+    }
+
+   
+          
+}
+
+@media (min-width: 760px) and (max-width: 1024px){
+    .stats-wrapper {
+        text-align: center;
+    }
+
+    .farms-ta {
+        width: 50%;
+        margin-top: 2em;
+    }
+
+    .get-started-div {
+        position: relative;
+        left: -12em;
+    }
+    .farm-img {
+        height: 15em;
+    }
+
+    .closed-sign {
+        /* position: relative;
+        left: 29.5em;
+        bottom: 14em; */
+        
+    }
+    }
+    
+
+.stat-single {
+    margin: 0 auto;
+    font-family: Montserrat;
+
+}
+
+/* 
+@media (min-width: 320px) and (max-width: 600px){
+    .banner-h2-text-home {
+        font-size: 19px;
+    }
+
+    .button-to-fund-home {
+        position: relative;
+        top: 17em;
+    }
+    .closed-sign {
+        position: relative;
+        left: 13em;
+        font-weight: bold;
+    }
+
+    .get-app-span1 {
+        font-size: 1.5em;
+    }
+
+    .farm-img {
+        height: 15em;
+    }
+
+} */
+
+@media (max-width: 767px) {
+    .body-banner-grandparent {
+        background-image: url(./tools/farmerbanner.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 3em 1em;
+    }
+
+    .body-banner-grandparent-team {
+        
+        padding:  3em 1em;
+        background-image: url(./tools/banner2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .body-banner2 {
+        background-image: none;
+        position: relative;
+       
+    }
+
+    .body-banner-text2-team {
+        position: absolute;
+        top: 30em;
+        text-align: left;
+        width: 100%;
+        left: 0em;
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .body-banner3 {
+        position: relative;
+       background-image: none;
+    }
+    .banner-h2-text {
+        font-size: 22px;
+        color: #0D9A49;
+        font-weight: bold;
+    }
+    .body-banner-text3 {
+        position: absolute;
+        top: 25.5em;
+        text-align: left;
+        width: 100%;
+        left: 0em;
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .banner-p-text {
+        padding-top: 1em;
+    }
+
+    .body-tech-event {
+      position: absolute;
+      left: 4.5em;
+      top: -1em;
+      
+    }
+
+    .tech-pic {
+        width: 4em;
+        object-fit: contain;
+        
+    }
+
+    .tech-pic-div {
+        padding: 0.2em 0.5em;
+    }
+
+    .max-width-wrapper {
+        position: relative;
+    }
+
+    .abt-us-banner {
+        width: 100%;
+    }
+
+    .team-members-text {
+        font-size: 0.8em;
+    }
+    .body-banner-text {
+        background: none;
+        width: 100%;
+        padding-bottom: 6em;
+        margin-left: 1em;
+    }
+
+    .h1-abt-banner-text {
+        font-size: 2.1em;
+        margin-bottom: 20px;
+        margin-top: 2.5em;
+    }
+
+    .abt-curve-banner-pic {
+        position: relative;
+        width: 0;
+    }
+
+    .abt-curve-img {
+        position: absolute;
+        left: -24em;
+        width: 300px;
+        object-fit: cover;
+       
+    }
+
+    .move-text {
+        width: 100%;
+        top: 19em;
+        left: 0;
+    }
+    
+    .tabs label {
+        width: 50px;
+        height: 50px;
+    }
+
+    .img-font-green{
+        width: 90%;
+        height: 90%;
+        
+    }
+
+    .tabs {
+        position: relative;
+      }
+      
+      .animation-circle:nth-child(4) {
+        position: absolute;
+        top: 6em;
+        left: -1em;
+       
+       
+      }
+      
+      .animation-circle:nth-child(2) {
+        position: absolute;
+        right: -1em;
+        top: 6em;
+       
+       
+      }
+      
+      
+      .animation-circle:nth-child(12) {
+        position: absolute;
+        left: 9.3em;
+        top: -2em;
+      }
+      
+      .animation-circle:nth-child(8) {
+        position: absolute;
+        left: -1em;
+        top: 22em;
+      }
+      
+      .animation-circle:nth-child(10) {
+        position: absolute;
+        bottom: -2em;
+        left: 9.3em;
+      }
+      
+      .animation-circle:nth-child(6) {
+        position: absolute;
+        right: -1em;
+        top: 22em;
+       
+      }
+
+      .body-process-text-green {
+          font-size: 21px;
+      }
+      
+    #content1 {
+        position: relative;
+        top: 8em;
+        left: 2.7em;
+        width: 250px;
+        text-align: center;
+        font-family: Montserrat,Helvetica Neue,Arial,sans-serif;
+      }
+      
+      #content2 {
+        position: relative;
+        top: 6em;
+        left: 2.7em;
+        width: 250px;
+        text-align: center;
+        font-family: Montserrat,Helvetica Neue,Arial,sans-serif;
+      }
+
+      #content3 {
+        position: relative;
+        top: 6em;
+        left: 2.7em;
+        width: 250px;
+        text-align: center;
+        font-family: Montserrat,Helvetica Neue,Arial,sans-serif;
+      }
+
+      #content4 {
+        position: relative;
+        top: 6em;
+        left: 2.7em;
+        width: 250px;
+        text-align: center;
+        font-family: Montserrat,Helvetica Neue,Arial,sans-serif;
+      }
+
+      #content5 {
+        position: relative;
+        top: 6em;
+        left: 2.7em;
+        width: 250px;
+        text-align: center;
+        font-family: Montserrat,Helvetica Neue,Arial,sans-serif;
+      }
+
+      #content6 {
+        position: relative;
+        top: 6em;
+        left: 2.7em;
+        width: 250px;
+        text-align: center;
+        font-family: Montserrat,Helvetica Neue,Arial,sans-serif;
+      }
+}

@@ -5,7 +5,8 @@ import SocialMedia from './socialmedia';
 
 function Footer() {
     return (
-       <div className="">
+        
+       <div className="col-md-12 col-xs-12">
            <div className="get-thrive-app" >
                <div className="get-app-text">
                    <span className="get-app-span1" >Get the<span className="light-green">Thrive Agric </span> App.</span>
@@ -19,10 +20,11 @@ function Footer() {
                         <img src={playstore} alt="Get thrive app from playstore" className="app-img" />
                     </a>
                </div>
+               
            </div>
-           <div className="footer-info-grand-parent">
+           <div className="col-md-12 footer-info-grand-parent">
                 <div className="footer-info-parent">
-                    <div className="footer-info-child">
+                    <div className="col-md-3 col-sm-6 col-xs-12 footer-info-child">
                         <span className="footer-h3-text">Company</span>
                         <div className="footer-p-text">
                             <span className="footer-p">
@@ -43,8 +45,9 @@ function Footer() {
                              time.
                             </span>
                         </div>
+                        <SocialMedia/>
                     </div>
-                    <div className="footer-info-child">
+                    <div className="col-md-3 col-sm-6 col-xs-12 footer-info-child">
                         <span className="footer-h3-text">Contact Us</span>
                         <div className="footer-p-text">
                             <span className="footer-p">31, 441 Crescent,<br/>
@@ -56,7 +59,7 @@ function Footer() {
                             </span>
                         </div>
                     </div>
-                    <div className="footer-info-child">
+                    <div className="col-md-3 col-sm-6 col-xs-12 footer-info-child">
                         <span className="footer-h3-text">More Links</span>
                         <div className="footer-p-text">
                             <span className="footer-p"><a className="more-links" href="dummy">Contact Us</a><br/>
@@ -68,28 +71,30 @@ function Footer() {
                             </span>
                         </div>
                     </div>
-                    <div className="footer-info-child">
+                    <div className="col-md-3 col-sm-6 col-xs-12 footer-info-child">
                         <span className="footer-h3-text">Join our community</span>
                         <div className="footer-p-text">
                             <span className="footer-p">
                             We will love to reach you!<br/>
-                             Subscribe to get exciting news and stories of all<br/>
+                             Subscribe to get exciting news and stories<br/> of all  {/* <br/> */}
                              the work we are doing to empower<br/>
                              farmers and ensure global food<br/> 
                             security.
                             </span>
                         </div>
+                        <div className="footer-email-div">
+                            <form>
+                                <input type="email" id="footer-email" placeholder="Your email address" required/>
+                                <button className="footer-submit"><i class="fa fa-chevron-right white"></i></button> 
+                            </form>  
+                        </div>
                     </div>
                 </div>
-                <SocialMedia/>
-                <div className="footer-email-div">
-                    <form>
-                        <input type="email" id="footer-email" placeholder="Your email address" required/>
-                        <button className="footer-submit">></button> 
-                    </form>  
-                </div>
+                
+                
            </div>
        </div>
+       
     );
 }
 export default Footer;
