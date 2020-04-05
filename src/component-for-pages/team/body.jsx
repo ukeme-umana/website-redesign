@@ -402,9 +402,9 @@ function TeamBody () {
                         </a>
                     </div>
                     <div className="team-members-text">
-                        <span className="team-members-name">SANI CHRISTOPHER</span>
+                        <span className="team-members-name">JOHN DADA</span>
                         <br/>
-                        <span className="team-role">PRODUCTS</span>
+                        <span className="team-role">OPERATIONS</span>
                     </div>
                 </div>
                 <div className="team-members-parent" >
@@ -432,9 +432,9 @@ function TeamBody () {
                         </a>
                     </div>
                     <div className="team-members-text">
-                        <span className="team-members-name">SANI CHRISTOPHER</span>
+                        <span className="team-members-name">BALA UMAR</span>
                         <br/>
-                        <span className="team-role">PRODUCTS</span>
+                        <span className="team-role">OPERATIONS</span>
                     </div>
                 </div>
                 <div className="team-members-parent" >
@@ -452,7 +452,7 @@ function TeamBody () {
                         <span className="team-role">OPERATIONS</span>
                     </div>
                 </div>
-                <div className="team-members-parent" >
+                {/* <div className="team-members-parent" >
                     <div className="team-members-pictures">
                         <img className="team-pic" src={pic27} alt="" />
                     </div>
@@ -466,7 +466,7 @@ function TeamBody () {
                         <br/>
                         <span className="team-role">PRODUCTS</span>
                     </div>
-                </div>
+                </div> */}
                 <div className="team-members-parent" >
                     <div className="team-members-pictures">
                         <img className="team-pic" src={pic28} alt="" />
@@ -477,9 +477,9 @@ function TeamBody () {
                         </a>
                     </div>
                     <div className="team-members-text">
-                        <span className="team-members-name">SANI CHRISTOPHER</span>
+                        <span className="team-members-name">AHMED ADIGUN</span>
                         <br/>
-                        <span className="team-role">PRODUCTS</span>
+                        <span className="team-role">OPERATIONS</span>
                     </div>
                 </div>
                 <div className="team-members-parent" >
